@@ -1,0 +1,478 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Poppins:ital,wght@1,500&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:link,
+a:visited{
+    text-decoration: none;
+    outline: none;
+    border: 0;
+}
+
+body, html {
+      
+    overflow-x: hidden;
+  }
+
+ul,
+li{
+    list-style: none;
+    
+}
+
+section,
+span,
+p{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+  
+
+.header-menu{
+    padding-top: 70px;
+}
+.header-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+  
+
+
+.header{
+    background-image: url(arkaplan.jpg);
+    background-position: center center ;
+    background-size: cover ;
+    position: relative;
+    height: 100vh;
+    
+}
+
+.header-Logo {
+    
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.header span{
+    color: #fff;
+    font-size: 80px;
+    font-family: 'Herr Von Muellerhoff', cursive;
+}
+.loading-icon {
+    width: 30px;
+    height: 30px;
+    border: 5px solid #fff;
+    border-top-color: #00000000;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+    vertical-align: middle;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+ul{
+    display: flex ;    
+}
+li{
+    margin-left: 15px;    
+}
+
+a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.logo{
+    width: 16%;
+}
+  .header-subtitle {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  
+.logos {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+/*about us */
+
+
+.about-title{
+    margin-top :0px ;
+}
+
+.about-title h2{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.about-title h2::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: block;
+    margin-top:10px ;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    color: black;
+    flex-wrap: wrap;
+    
+    
+}
+
+h4{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family:  'Herr Von Muellerhoff', cursive;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+}
+
+.about{
+    background-image: url(arkaplan4.jpg);
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#yildiz{
+    color: #fff;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.about-content p{
+    color: black;
+    text-align: center;
+    margin-top:30px;
+    font-size: 15px;
+    
+}
+.about-mission{
+    margin-bottom: 30px;
+}
+
+/*pictures*/
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item{
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(147, 214, 230, 0.8);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0.9;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    
+}
+.material-icons{
+    font-size: 30px;
+}
+
+.portfolio-item:hover .overlay{
+    top:0;
+}
+
+.portfolio-item:hover img{
+    transform: scale(1.2);
+}
+
+
+/*discover*/
+
+
+
+.discover-title{
+    margin: 0px 0px;
+}
+
+.discover-title h2{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+.discover-title h2::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: block;
+    margin-top:10px ;
+}
+
+.discover-content{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    color: black;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.discover-img{
+    width: 30%;
+}
+
+.discover-img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.discover-mission h4{
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 40px;
+    font-family:  'Courier New', Courier, monospace;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+}
+
+.discover{
+    background-image: url(arkaplan4.jpg);
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: -20px;
+}
+
+
+#house{
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+
+.discover-content p{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+.discover-mission{
+    margin-bottom:50px ;
+}
+
+.dashed-line{
+    margin-top: 50px;
+    border-top: 5px dashed rgb(139, 162, 189);
+    border-radius: 100%;
+    
+}
+
+#sailing{
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+#payments{
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+#flight{
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+/*CONTACT*/
+
+
+.page-title h2{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+.contact-item{
+    margin-top: 60px;
+}
+
+.contact-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.page-title h2::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: block;
+    margin-top:10px ;
+}
+
+.contact-content{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.contact-item{
+    display: flex;
+    align-items: center;
+    flex-basis: 33%;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+#locationn{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.contact-item i{
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.contact-item p{
+    font-size: 14px;
+    text-align: center;
+}
+
+#menu-icon{
+    font-size: 25px;
+    display: none;
+    margin-left: 8px;
+    margin-top: -37px;
+}
+
+@media only screen and (max-width :615px) {
+    .header-menu ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 34px;
+        left:32px;
+        
+        overflow: hidden;
+        width: 30%;
+        transition: max-height .7s;
+    }
+
+    .header-menu ul li{
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+    }
+    .header-menu #menu-icon{
+        display: block;
+        cursor: pointer;
+        color: #fff;
+        
+    }
+}
+@media only screen and (max-width :800px){
+    .discover-img{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+}
+@media only screen and (max-width :800px){
+    .portfolio .portfolio-item{
+        flex-basis: 50%;
+    }
+}
+@media only screen and (max-width :650px){
+    .contact-content{
+        flex-direction: column;
+    }
+}
+

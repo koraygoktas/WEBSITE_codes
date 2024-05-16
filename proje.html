@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header">
+            
+            <div class="header-menu">
+                <ul id="menuItems">
+                    
+                    <li id="dil1"><a href="#" onclick="changeLanguage('tr')">Turkish</a></li>
+                    <li id="dil2"><a href="#" onclick="changeLanguage('en')">English</a></li>   
+                    <li id="aboutus_bölümü"><a href="#" onclick="scrollToSection('about')">About us</a></li>
+                    <li id="discover_bölümü"><a href="#" onclick="scrollToSection('discover')">Discover</a></li>
+                    <li id="contact_bölümü"><a href="#" onclick="scrollToSection('contact')">Contact</a></li>
+                </ul>
+                <i id="menu-icon" onclick="menuToggle()" class="material-icons">menu</i>
+            </div> 
+
+                <div class="logos">
+                
+                    <img class="logo" src="editlogoson.png" alt="cannot be displayed">
+                     <h1 class="header-Logo">CUATRO<br>GROUP</h1>
+                     <span id="coming_soon">Coming Soon</span>
+                     <span class="loading-icon"></span>
+
+                </div>
+
+                  
+                
+                <div class="header-subtitle">
+                    <h5 class="down" id="scroll-down">SCROLL DOWN</h5>
+                </div>
+            
+        </div>
+    </header>
+
+    <!--about us-->
+
+    <section id="about">
+        <div class="about">
+            <div class="container">
+                <div class="about-title">
+                    <h2 id="aboutTitle">ABOUT US</h2>
+                </div>
+                <div class="about-content">
+
+                    <div class="about-briefly anime-left">
+                        <h4 id="about_briefly">Our Company</h4>
+                        <div id="yildiz">
+                            <i class="material-icons" id="visionIcon">star</i>
+                        </div>
+                        <p id="brieflyText">Cuatro Group is a group company established in 2023, aiming at perfect customer satisfaction with its large staff working with a focus on customer, quality and speed in the sectors in which it operates. Although its fields of activity are real estate investment, logistics support, trade and tourism, it has aimed to achieve high successes in its sector with a perspective of getting better every day.</p>
+                    </div>
+
+
+
+                    <div class="about-vision anime-right">
+                        <h4 id="visionTitle">Our Vision</h4>
+                        <div id="yildiz">
+                            <i class="material-icons" id="visionIcon">star</i>
+                        </div>
+                        <p id="visionText">Our vision is to be one of the leading real estate service providers in Turkey through continuous endeavor partnerships with our customers and associates based on transparency and mutual trust</p>
+                    </div>
+
+                    
+
+
+                    <div class="about-mission anime-left">
+                        <h4 class="mission" id="missionTitle">Our Mission</h4>
+                        <div id="yildiz">
+                            <i class="material-icons" id="missionIcon">star</i>
+                        </div>
+                        <p id="missionText">Our mission is to provide the highest level of real estate services, we are dedicated to providing all our customers with excellent, professional, honest, and responsible service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--pictures-->
+
+    <section id="portfolio">
+        <div class="portfolio">
+            <div class="portfolio-item ani1 ">
+                <img src="ev_resimleri/r-architecture-2gDwlIim3Uw-unsplash.jpg" alt="cannot be displayed">
+                <div class="overlay">
+                    <i class="material-icons">house</i>
+                </div>
+            </div>
+            <div class="portfolio-item ani2 ">
+                <img src="lojistik_resimleri/barrett-ward-5WQJ_ejZ7y8-unsplash.jpg" alt="cannot be displayed">
+                <div class="overlay">
+                    <i class="material-icons">sailing</i>
+                </div>
+            </div>
+            <div class="portfolio-item ani3 ">
+                <img src="ticaret_resimleri/markus-spiske-BTKF6G-O8fU-unsplash.jpg" alt="cannot be displayed">
+                <div class="overlay">
+                    <i class="material-icons">payments</i>
+                </div>
+            </div>
+            <div class="portfolio-item ani4 ">
+                <img src="turizm_resimleri/jacek-dylag-SPpsFbCaN2A-unsplash.jpg" alt="cannot be displayed">
+                <div class="overlay">
+                    <i class="material-icons">flight</i>
+                </div>
+            </div>
+            <div class="portfolio-item ani5 ">
+                <img src="ev_resimleri/vu-anh-TiVPTYCG_3E-unsplash.jpg" alt="cannot be displayed">
+                <div class="overlay">
+                    <i class="material-icons">house</i>
+                </div>
+            </div>
+            <div class="portfolio-item ani6 ">
+                <img src="lojistik_resimleri/elevate-dI-aXC7DWpQ-unsplash.jpg" alt="cannot be displayed">
+                <div class="overlay">
+                    <i class="material-icons">sailing</i>
+                </div>
+            </div>
+            <div class="portfolio-item ani7 ">
+                <img src="ticaret_resimleri/nathan-dumlao-lvWw_G8tKsk-unsplash.jpg" alt="cannot be displayed">
+                <div class="overlay">
+                    <i class="material-icons">payments</i>
+                </div>
+            </div>
+            <div class="portfolio-item ani8 ">
+                <img src="turizm_resimleri/elizeu-dias-SEq9dyZSe6c-unsplash.jpg" alt="cannot be displayed">
+                <div class="overlay">
+                    <i class="material-icons">flight</i>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!--discover-->
+
+    <section id="discover">
+        <div class="discover">
+            <div class="container">
+                <div class="discover-title">
+                    <h2 id="discoverr_bölümü">DİSCOVER</h2>
+                </div>
+                <div class="discover-content">
+                    <div class="discover-img  anime-left">
+                        <img src="ev_resimleri/owen-lystrup-boLgiM0qwkg-unsplash.jpg" alt="cannot be displayed">
+                    </div>
+                    <div class="discover-mission  anime-right ">
+                        <h4 id="realestate_bölümü" class="mission">CUATRO REAL ESTATE</h4>
+                        <div id="house">
+                            <i class="material-icons">house</i>
+                        </div>
+                        <p id="emlak_p">We are pleased to support you in your investment services with our responsible <br>staff who have taken over the task of meeting you with your real estate <br>according to your needs for a happy life. In your real estate investments, <br>as Cuatro Gayrimenkul, you can determine your needs from our wide portfolio and <br>have them as soon as possible.</p>
+                    </div>
+                </div>
+
+
+                <div class="dashed-line"></div>
+
+
+                <div class="discover-content">           
+                    <div class="discover-mission  anime-left">
+                        <h4 id="lojistikk_bölümü" class="mission">CUATRO LOGISTICS</h4>
+                        <div id="sailing">
+                            <i class="material-icons">sailing</i>
+                        </div>
+                        <p id="lojistik_p">Cuatro Logistics provides an integrated service to its business partners with <br>the services it provides in the planning and management of supply chain processes, <br>in addition to the services it provides in investment areas.</p>
+                    </div>
+                    <div class="discover-img  anime-right">
+                        <img src="lojistik_resimleri/chuttersnap-9cCeS9Sg6nU-unsplash.jpg" alt="cannot be displayed">
+                    </div>
+                </div>
+
+
+                <div class="dashed-line"></div>
+
+
+                <div class="discover-content">   
+                    <div class="discover-img  anime-left">
+                        <img src="ticaret_resimleri/austin-kehmeier-lyiKExA4zQA-unsplash.jpg" alt="cannot be displayed">
+                    </div>        
+                    <div class="discover-mission  anime-right">
+                        <h4 id="ticarett_bölümü" class="mission">CUATRO TRADE</h4>
+                        <div id="payments">
+                            <i class="material-icons">payments</i>
+                        </div>
+                        <p id="ticaret_p">In addition to the current trade processes it carries out, you can <br>enable us to be a solution partner for your needs that you will share with us.</p>
+                    </div>
+                </div>
+
+
+                <div class="dashed-line"></div>
+
+
+                <div class="discover-content">      
+                    <div class="discover-mission  anime-left">
+                        <h4 id="turizmm_bölümü" class="mission">CUATRO TOURİSM</h4>
+                        <div id="flight">
+                            <i class="material-icons">flight</i>
+                        </div>
+                        <p id="turizm_p">A compact service is provided to introduce the province of Mersin, <br>one of the most ancient and modern cities of Turkey, to our guests.</p>
+                    </div>
+                    <div class="discover-img  anime-right">
+                        <img src="turizm_resimleri/lance-asper-mNDVSSmMt0Y-unsplash.jpg" alt="cannot be displayed">
+                    </div>     
+                </div>
+
+        <!--CONTACT-->
+
+                <div class="container" id="contact">
+                    <div class="page-title">
+                        <h2 id="contactt_bölümü">CONTACT</h2>
+                    </div>
+                    <div class="contact-content">
+                        <div class="contact-item anime-bottom">
+                           <i class="material-icons">phone</i>
+                          <a href="tel:+905330630962">+905330630962</a>
+                          <br>
+                          <a href="tel:+905330630961">+905330630961</a>
+                          <br>
+                          <a href="tel:+905330630964">+905330630964</a>
+                        </div>
+                        <div class="contact-item anime-top">
+                            <i class="material-icons">location_on</i>
+                            <a id="locationn" target="_blank" href="https://www.google.com/maps/search/?api=1&query=36.797046, 34.599065">LİMONLUK MAH. 2410 SK.<br>SEMT:YENİKÖY OFİS:1 NO:6 İÇ KAPI NO:56 YENİŞEHİR/MERSİN</a>
+                        </div>
+                        <div class="contact-item anime-bottom">
+                            <i class="material-icons">mail</i>
+                            <a href="mailto:Said.zyada@cuatrogroup.com.tr">Said.zyada@cuatrogroup.com.tr</a> <br> <a href="mailto:Abdulkerim.goktas@cuatrogroup.com.tr">Abdulkerim.goktas@cuatrogroup.com.tr</a> <br> <a href="mailto:Aziz.gulbasaran@cuatrogroup.com.tr">Aziz.gulbasaran@cuatrogroup.com.tr</a> <br> <a href="mailto:Info@cuatrogroup.com.tr">Info@cuatrogroup.com.tr</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    
+    <script>
+        
+      
+        
+          // Dil metinlerini güncelleme işlevi
+          function updateLanguage() {
+            var lang = localStorage.getItem('lang') || 'en';
+            var menuItems = document.getElementById('menuItems');
+            var links = menuItems.querySelectorAll('li a');
+            
+            if (lang === 'tr') {
+              //header
+              links[0].textContent = 'Türkçe';
+              links[1].textContent = 'İngilizce';
+              links[2].textContent = 'Hakkımızda';
+              links[3].textContent = 'Keşfet';
+              links[4].textContent = 'İletişim';
+              document.getElementById('coming_soon').textContent = 'Yakında Geliyor';
+              document.getElementById('scroll-down').textContent = 'AŞAĞI KAYDIR';
+
+              //about us
+              document.getElementById('aboutTitle').textContent = 'HAKKIMIZDA';
+              document.getElementById('about_briefly').textContent = 'Cuatro Group';
+              document.getElementById('brieflyText').innerHTML = 'Cuatro Group, faaliyet göstermekte olduğu sektörlerde müşteri, kalite ve hız odağında <br>çalışan geniş kadrosuyla kusursuz müşteri memnuniyetini hedef almış 2023 yılında <br>kurulan bir grup firmasıdır. Faaliyet alanları gayrimenkul yatırım, lojistik destek, ticaret ve turizm <br>olmakla beraber her gün daha iyiye bakış açısıyla <br>sektöründe yüksek başarılara imzalar atmayı hedef almıştır.';
+              document.getElementById('visionTitle').textContent = 'Vizyonumuz';
+              document.getElementById('visionIcon').textContent = 'star';
+              document.getElementById('visionText').textContent = 'Vizyonumuz, şeffaf ve karşılıklı güvene dayalı  sürekli çaba ortaklıklarıyla Türkiye\'nin önde gelen gayrimenkul hizmet sağlayıcılarından biri olmaktır.';
+              document.getElementById('missionTitle').textContent = 'Misyonumuz';
+              document.getElementById('missionIcon').textContent = 'star';
+              document.getElementById('missionText').textContent = 'Misyonumuz, yüksek kalitede gayrimenkul hizmetleri sunmaktır. Müşterilerimize mükemmel, profesyonel, dürüst ve sorumlu bir hizmet sunmak için kendimizi adadık.';
+
+              //discover
+              document.getElementById('discoverr_bölümü').textContent = 'KEŞFET';
+              document.getElementById('realestate_bölümü').textContent = 'CUATRO EMLAK';
+              document.getElementById('emlak_p').innerHTML = 'Mutlu bir yaşam süreceğiniz ihtiyacınıza <br>göre gayrimenkullerinizin sizlerle buluşma görevini devralmış sorumlu kadromuzla, <br>sizlere yatırım hizmetlerinizde destek olmaktan memnuniyet duyarız. <br>Gayrimenkul yatırımlarınızda Cuatro Gayrimenkul olarak geniş portföyümüzden <br>ihtiyaçlarınızı belirleyebilir en kısa sürede sahip olabilirsiniz.';
+              document.getElementById('lojistikk_bölümü').textContent = 'CUATRO LOJİSTİK';
+              document.getElementById('lojistik_p').innerHTML = 'Cuatro Lojistik, yatırım alanlarında vermiş olduğu hizmetin yanında tedarik <br>zinciri süreçlerinin planlanması ve yönetiminde sağlıyor olduğu <br>hizmetlerle iş ortaklarına entegre bir hizmet sunmaktadır.';
+              document.getElementById('ticarett_bölümü').textContent = 'CUATRO TİCARET';
+              document.getElementById('ticaret_p').innerHTML = 'Yürütmekte olduğu mevcut ticaret süreçlerine ilave olarak bizlerle <br>paylaşacağınız ihtiyaçlarınız için çözüm ortağı olmamızı sağlayabilirsiniz.';
+              document.getElementById('turizmm_bölümü').textContent = 'CUATRO TURİZM';
+              document.getElementById('turizm_p').innerHTML = 'Türkiyenin en antik ve modern şehirlerinden biri olan <br>Mersin ilinin misafirlerimize tanıtılmasında kompakt bir hizmet sunulmaktadır.';
+
+              //contact
+              document.getElementById('contactt_bölümü').textContent = 'İLETİŞİM';
+              
+                
+            } else {
+                //header
+                links[0].textContent = 'Turkish';
+                links[1].textContent = 'English';
+                links[2].textContent = 'About us';
+                links[3].textContent = 'Discover';
+                links[4].textContent = 'Contact';
+                document.getElementById('coming_soon').textContent = 'Coming Soon';
+                document.getElementById('scroll-down').textContent = 'SCROLL DOWN';
+              //about us
+              document.getElementById('aboutTitle').textContent = 'ABOUT US';
+              document.getElementById('about_briefly').textContent = 'Cuatro Group';
+              document.getElementById('brieflyText').innerHTML = 'Cuatro Group is a group company established in 2023, aiming <br>at perfect customer satisfaction with its <br>large staff working with a focus on customer, quality and speed in the sectors <br>in which it operates. Although its fields of activity are real estate investment, <br>logistics support, trade and tourism, it has aimed to achieve high successes in its <br>sector with a perspective of getting better every day.';
+              document.getElementById('visionTitle').textContent = 'Our Vision';
+              document.getElementById('visionIcon').textContent = 'star';
+              document.getElementById('visionText').textContent = 'Our mission is to provide the highest level of real estate services, we are dedicated to providing all our customers with excellent, professional, honest, and responsible service';
+              document.getElementById('missionTitle').textContent = 'Our Mission';
+              document.getElementById('missionIcon').textContent = 'star';
+              document.getElementById('missionText').textContent = 'Our mission is to provide the highest level of real estate services. We are dedicated to providing all our customers with excellent, professional, honest, and responsible service.';
+              
+              //discover
+              document.getElementById('discoverr_bölümü').textContent = 'DİSCOVER';
+              document.getElementById('realestate_bölümü').textContent = 'CUATRO REAL ESTATE';
+              document.getElementById('emlak_p').innerHTML = 'We are pleased to support you in your investment services with our responsible <br>staff who have taken over the task of meeting you with your real estate <br>according to your needs for a happy life. In your real estate investments, <br>as Cuatro Gayrimenkul, you can determine your needs from our wide portfolio and <br>have them as soon as possible.';
+              document.getElementById('lojistikk_bölümü').textContent = 'CUATRO LOGİSTİCS';
+              document.getElementById('lojistik_p').innerHTML = 'Cuatro Logistics provides an integrated service to its business partners with <br>the services it provides in the planning and management of supply chain processes, <br>in addition to the services it provides in investment areas. ';
+              document.getElementById('ticarett_bölümü').textContent = 'CUATRO TRADE';
+              document.getElementById('ticaret_p').innerHTML = 'In addition to the current trade processes it carries out, you can <br>enable us to be a solution partner for your needs that you will share with us.';
+              document.getElementById('turizmm_bölümü').textContent = 'CUATRO TOURİSM';
+              document.getElementById('turizm_p').innerHTML = 'A compact service is provided to introduce the province of Mersin, <br>one of the most ancient and modern cities of Turkey, to our guests.';
+
+              //contact
+              document.getElementById('contactt_bölümü').textContent = 'CONTACT';
+            }
+            
+          }
+          
+          // Dil kontrolü ve güncelleme
+        var lang = localStorage.getItem('lang');
+
+if (lang === null) {
+    lang = 'en'; // İlk açılışta varsayılan olarak İngilizce dilini ayarla
+    localStorage.setItem('lang', lang); // Dil bilgisini kaydet
+} else {
+    updateLanguage(lang); // Sayfa daha önceden ziyaret edildiyse dil güncellemesini yap
+}
+
+// Dil değişikliği işlevi
+function changeLanguage(lang) {
+    localStorage.setItem('lang', lang);
+    updateLanguage(lang); // Dil güncellemesini çağırın
+}
+
+        
+
+        
+      </script>
+      
+ 
+
+
+
+    <script>
+        ScrollReveal().reveal('.ani1',{delay:125});
+        ScrollReveal().reveal('.ani2',{delay:250});
+        ScrollReveal().reveal('.ani3',{delay:375});
+        ScrollReveal().reveal('.ani4',{delay:500});
+        ScrollReveal().reveal('.ani5',{delay:625});
+        ScrollReveal().reveal('.ani6',{delay:750});
+        ScrollReveal().reveal('.ani7',{delay:875});
+        ScrollReveal().reveal('.ani8',{delay:1000});
+    </script>    
+  
+    <script>
+        window.sr=ScrollReveal();
+        sr.reveal('.anime-left',{
+            origin:'left',
+            duration:1000,
+            distance:'25rem',
+            delay:300
+        })
+        sr.reveal('.anime-right',{
+            origin:'right',
+            duration:1000,
+            distance:'25rem',
+            delay:300
+        })
+        sr.reveal('.anime-top',{
+            origin:'top',
+            duration:1000,
+            distance:'25rem',
+            delay:300
+        })
+        sr.reveal('.anime-bottom',{
+            origin:'bottom',
+            duration:1000,
+            distance:'25rem',
+            delay:300
+        })
+    </script>
+
+
+    <script>
+         function scrollToSection(sectionId) {
+    var section = document.getElementById(sectionId);
+    var targetPosition = section.offsetTop; // Kaydırılacak hedef konum
+    var currentPosition = window.pageYOffset; // Mevcut konum
+    var scrollDistance = targetPosition - currentPosition; // Toplam mesafe
+    var duration = 500; // Süre (ms)
+    var startTime = null;
+
+    function animateScroll(timestamp) {
+      if (!startTime) startTime = timestamp;
+      var elapsedTime = timestamp - startTime;
+      var progress = Math.min(elapsedTime / duration, 1); // İlerleme yüzdesi
+      var easeProgress = easeOutQuad(progress); // Animasyon eğrisi (isteğe bağlı)
+
+      window.scrollTo(0, currentPosition + scrollDistance * easeProgress);
+
+      if (elapsedTime < duration) {
+        requestAnimationFrame(animateScroll);
+      }
+    }
+
+    // İsteğe bağlı olarak animasyon eğrisi tanımlayabilirsiniz (easeOutQuad, easeInOutCubic, vb.)
+    function easeOutQuad(t) {
+      return t * (2 - t);
+    }
+
+    requestAnimationFrame(animateScroll);
+  }
+
+        var menuItems=document.getElementById('menuItems');
+        menuItems.style.maxHeight="0px";
+
+        function menuToggle(){
+            if(menuItems.style.maxHeight=="0px"){
+                menuItems.style.maxHeight="200px"
+            }
+            else{
+                menuItems.style.maxHeight="0px"
+            }
+        }
+    </script>
+
+</body>
+</html>
